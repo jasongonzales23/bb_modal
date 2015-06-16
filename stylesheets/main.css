@@ -163,29 +163,30 @@ button.close {
       width: 12px;
       height: 12px;
       border-radius: 100%; }
-    /* line 165, stdin */
-    .screenshot-nav li.active a {
-      background: #2F84CC;
-      border: none; }
+      /* line 163, stdin */
+      .screenshot-nav li a.active {
+        background: #2F84CC;
+        border: none; }
 
-/* line 173, stdin */
+/* line 171, stdin */
 .screenshot-images {
   margin: 0;
   clear: both;
   position: relative;
-  white-space: nowrap; }
-  /* line 178, stdin */
+  white-space: nowrap;
+  transition: 1s ease-in-out; }
+  /* line 177, stdin */
   .screenshot-images li {
     display: inline-block;
     margin-right: 32px; }
-    /* line 181, stdin */
+    /* line 180, stdin */
     .screenshot-images li:last-child {
       margin-right: 0; }
-    /* line 184, stdin */
+    /* line 183, stdin */
     .screenshot-images li img {
       width: 240px; }
 
-/* line 193, stdin */
+/* line 192, stdin */
 .badge-tail {
   width: 141px;
   height: 35px;
@@ -195,7 +196,7 @@ button.close {
   left: 65px;
   bottom: 50px; }
 
-/* line 203, stdin */
+/* line 202, stdin */
 .update-badge {
   position: absolute;
   bottom: 15px;
@@ -203,10 +204,10 @@ button.close {
   height: 177px;
   width: 177px;
   border-radius: 100%;
-  border: 1px solid;
+  border: 1px solid #D7D7D7;
   overflow: hidden;
   background: #fff; }
-  /* line 213, stdin */
+  /* line 212, stdin */
   .update-badge h5 {
     position: relative;
     top: 100%;

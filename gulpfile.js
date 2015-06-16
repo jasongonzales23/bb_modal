@@ -13,7 +13,7 @@ var config = {
 };
 
 gulp.task('sass', function() {
-  gulp.src('./build/main.scss')
+  gulp.src('./src/main.scss')
     .pipe(sass(
       {
         style: 'expanded',
@@ -31,7 +31,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('default', ['sass', 'browser-sync'], function() {
-  gulp.watch('./build/**/*.scss', ['sass']);
+  gulp.watch('./src/**/*.scss', ['sass']);
 });
 
 

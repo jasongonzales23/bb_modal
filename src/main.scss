@@ -160,9 +160,7 @@ button.close {
       width: 12px;
       height: 12px;
       border-radius: 100%;
-    }
-    &.active {
-      a {
+      &.active {
         background: #2F84CC;
         border: none;
       }
@@ -175,6 +173,7 @@ button.close {
   clear: both;
   position: relative;
   white-space: nowrap;
+  transition: 1s ease-in-out;
   li {
     display: inline-block;
     margin-right: 32px;
@@ -207,7 +206,7 @@ $badge-position-bottom: 15;
   height: 177px;
   width: 177px;
   border-radius: 100%;
-  border: 1px solid;
+  border: 1px solid #D7D7D7;
   overflow: hidden;
   background: #fff;
   h5 {
