@@ -1,0 +1,220 @@
+/* line 2, stdin */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 7, stdin */
+.cf:after {
+  clear: both; }
+
+/* line 11, stdin */
+p, li {
+  font-size: 14px; }
+
+/* line 15, stdin */
+.modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block; }
+
+/* line 25, stdin */
+.modal-dialog {
+  left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  margin: 30px auto; }
+
+/* line 33, stdin */
+.modal-content {
+  position: relative;
+  background-color: #FFF;
+  background-clip: padding-box;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
+
+/* line 40, stdin */
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0; }
+
+/* line 48, stdin */
+.close-button {
+  float: right;
+  padding: 5px 15px 15px;
+  width: 40px; }
+
+/* line 54, stdin */
+.close {
+  float: right;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1;
+  color: #BCBCBC;
+  font-family: "Open Sans";
+  opacity: .3; }
+
+/* line 64, stdin */
+.modal-body {
+  position: relative;
+  padding: 15px 15px 90px 40px; }
+
+/* line 69, stdin */
+#content {
+  font-family: "Helvetica Neue", sans-serif; }
+  /* line 72, stdin */
+  #content h1, #content h2, #content h3, #content h4 {
+    font-family: "Open Sans";
+    font-weight: 100;
+    line-height: 1.1; }
+  /* line 78, stdin */
+  #content h1 {
+    font-size: 34px; }
+  /* line 81, stdin */
+  #content h4 {
+    font-size: 12px; }
+
+/* line 86, stdin */
+.modal-header {
+  background: #303030;
+  color: #BCBCBC; }
+
+/* line 91, stdin */
+.logo {
+  float: left; }
+  /* line 93, stdin */
+  .logo img {
+    height: 124px;
+    vertical-align: middle; }
+
+/* line 99, stdin */
+.app-info {
+  float: left;
+  padding: 30px 43px; }
+  /* line 102, stdin */
+  .app-info h1 {
+    margin: 0 0 12px 0; }
+  /* line 105, stdin */
+  .app-info h4 {
+    margin: 0;
+    color: #7E7F7E; }
+
+/* line 111, stdin */
+.modal-navigation {
+  float: right;
+  text-align: center;
+  height: 124px;
+  width: 124px;
+  background: #2B2B2B; }
+  /* line 117, stdin */
+  .modal-navigation h3 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  /* line 123, stdin */
+  .modal-navigation.active {
+    background: #2F83CB;
+    color: #fff; }
+
+/* line 129, stdin */
+.description {
+  width: 57%;
+  float: left; }
+  /* line 132, stdin */
+  .description ul {
+    padding-left: 15px; }
+
+/* line 137, stdin */
+.screenshots {
+  width: 37%;
+  float: right;
+  overflow: hidden;
+  margin-right: -15px; }
+  /* line 142, stdin */
+  .screenshots h2 {
+    float: left; }
+  /* line 145, stdin */
+  .screenshots ul {
+    list-style: none;
+    padding: 0; }
+
+/* line 151, stdin */
+.screenshot-nav {
+  margin: 25px 5px;
+  float: left; }
+  /* line 154, stdin */
+  .screenshot-nav li {
+    float: left; }
+    /* line 156, stdin */
+    .screenshot-nav li a {
+      display: inline-block;
+      margin: 0 5px;
+      border: 1px solid #A6A6A6;
+      width: 12px;
+      height: 12px;
+      border-radius: 100%; }
+    /* line 165, stdin */
+    .screenshot-nav li.active a {
+      background: #2F84CC;
+      border: none; }
+
+/* line 173, stdin */
+.screenshot-images {
+  margin: 0;
+  clear: both;
+  position: relative;
+  white-space: nowrap; }
+  /* line 178, stdin */
+  .screenshot-images li {
+    display: inline-block;
+    margin-right: 32px; }
+    /* line 181, stdin */
+    .screenshot-images li:last-child {
+      margin-right: 0; }
+    /* line 184, stdin */
+    .screenshot-images li img {
+      width: 240px; }
+
+/* line 193, stdin */
+.badge-tail {
+  width: 141px;
+  height: 35px;
+  background-color: #982727;
+  border-radius: 4px;
+  position: absolute;
+  left: 65px;
+  bottom: 50px; }
+
+/* line 203, stdin */
+.update-badge {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  height: 177px;
+  width: 177px;
+  border-radius: 100%;
+  border: 1px solid;
+  overflow: hidden;
+  background: #fff; }
+  /* line 213, stdin */
+  .update-badge h5 {
+    position: relative;
+    top: 100%;
+    transform: translate(16px, -240%);
+    margin: 0;
+    padding: 9px 25px;
+    background-color: #982727;
+    color: #FFF;
+    border-radius: 4px;
+    padding-right: 20px;
+    font-size: 14px; }

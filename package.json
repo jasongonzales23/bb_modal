@@ -1,0 +1,17 @@
+{
+  "name": "bb_modal",
+  "version": "1.0.0",
+  "author": "Jason Gonzales",
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browser-sync": "^2.7.10",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1"
+  }
+}

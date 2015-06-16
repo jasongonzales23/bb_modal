@@ -1,0 +1,15 @@
+{
+  "name": "bb_modal",
+  "version": "0.0.0",
+  "authors": [
+    "Jason Gonzales <jason.gonzales23@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
