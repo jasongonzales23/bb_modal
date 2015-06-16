@@ -1,8 +1,12 @@
 /* line 1, stdin */
-html, body {
+html {
   box-sizing: border-box; }
 
-/* line 6, stdin */
+/* line 4, stdin */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 8, stdin */
 .cf:before,
 .cf:after {
   content: " ";
@@ -10,15 +14,15 @@ html, body {
   display: table;
   /* 2 */ }
 
-/* line 11, stdin */
+/* line 13, stdin */
 .cf:after {
   clear: both; }
 
-/* line 15, stdin */
+/* line 17, stdin */
 p, li {
   font-size: 14px; }
 
-/* line 19, stdin */
+/* line 21, stdin */
 .modal {
   position: relative;
   top: auto;
@@ -28,7 +32,7 @@ p, li {
   z-index: 1;
   display: block; }
 
-/* line 29, stdin */
+/* line 31, stdin */
 .modal-dialog {
   left: auto;
   margin-right: auto;
@@ -36,14 +40,14 @@ p, li {
   width: 90%;
   margin: 30px auto; }
 
-/* line 37, stdin */
+/* line 39, stdin */
 .modal-content {
   position: relative;
   background-color: #FFF;
   background-clip: padding-box;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
 
-/* line 44, stdin */
+/* line 46, stdin */
 button.close {
   -webkit-appearance: none;
   padding: 0;
@@ -51,13 +55,13 @@ button.close {
   background: 0 0;
   border: 0; }
 
-/* line 52, stdin */
+/* line 54, stdin */
 .close-button {
   float: right;
   padding: 5px 15px 15px;
-  width: 40px; }
+  width: 70px; }
 
-/* line 58, stdin */
+/* line 60, stdin */
 .close {
   float: right;
   font-size: 50px;
@@ -65,103 +69,104 @@ button.close {
   line-height: 1;
   color: #BCBCBC;
   font-family: "Open Sans";
-  opacity: .3; }
+  opacity: .3;
+  cursor: pointer; }
 
-/* line 68, stdin */
+/* line 71, stdin */
 .modal-body {
   position: relative;
   padding: 15px 15px 90px 40px; }
 
-/* line 73, stdin */
+/* line 76, stdin */
 #content {
   font-family: "Helvetica Neue", sans-serif; }
-  /* line 76, stdin */
+  /* line 79, stdin */
   #content h1, #content h2, #content h3, #content h4 {
     font-family: "Open Sans";
     font-weight: 100;
     line-height: 1.1; }
-  /* line 82, stdin */
+  /* line 85, stdin */
   #content h1 {
     font-size: 34px; }
-  /* line 85, stdin */
+  /* line 88, stdin */
   #content h4 {
     font-size: 12px; }
 
-/* line 90, stdin */
+/* line 93, stdin */
 .modal-header {
   background: #303030;
   color: #BCBCBC; }
 
-/* line 95, stdin */
+/* line 98, stdin */
 .logo {
   float: left; }
-  /* line 97, stdin */
+  /* line 100, stdin */
   .logo img {
     height: 124px;
     vertical-align: middle; }
 
-/* line 103, stdin */
+/* line 106, stdin */
 .app-info {
   float: left;
   padding: 30px 43px; }
-  /* line 106, stdin */
+  /* line 109, stdin */
   .app-info h1 {
     margin: 0 0 12px 0; }
-  /* line 109, stdin */
+  /* line 112, stdin */
   .app-info h4 {
     margin: 0;
     color: #7E7F7E; }
 
-/* line 115, stdin */
+/* line 118, stdin */
 .modal-navigation {
   float: right;
   text-align: center;
   height: 124px;
-  width: 74px;
+  width: 124px;
   background: #2B2B2B;
   padding: 0 24px; }
-  /* line 122, stdin */
+  /* line 125, stdin */
   .modal-navigation h3 {
     font-size: 16px;
     margin: 0;
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
-  /* line 129, stdin */
+  /* line 132, stdin */
   .modal-navigation.active {
     background: #2F83CB;
     color: #fff; }
 
-/* line 135, stdin */
+/* line 138, stdin */
 .description {
   width: 57%;
   float: left; }
-  /* line 138, stdin */
+  /* line 141, stdin */
   .description ul {
     padding-left: 15px; }
 
-/* line 143, stdin */
+/* line 146, stdin */
 .screenshots {
   width: 37%;
   float: right;
   overflow: hidden;
   margin-right: -15px; }
-  /* line 148, stdin */
+  /* line 151, stdin */
   .screenshots h2 {
     float: left; }
-  /* line 151, stdin */
+  /* line 154, stdin */
   .screenshots ul {
     list-style: none;
     padding: 0; }
 
-/* line 157, stdin */
+/* line 160, stdin */
 .screenshot-nav {
   margin: 25px 5px;
   float: left; }
-  /* line 160, stdin */
+  /* line 163, stdin */
   .screenshot-nav li {
     float: left; }
-    /* line 162, stdin */
+    /* line 165, stdin */
     .screenshot-nav li a {
       display: inline-block;
       margin: 0 5px;
@@ -169,30 +174,30 @@ button.close {
       width: 12px;
       height: 12px;
       border-radius: 100%; }
-      /* line 169, stdin */
+      /* line 172, stdin */
       .screenshot-nav li a.active {
         background: #2F84CC;
         border: none; }
 
-/* line 177, stdin */
+/* line 180, stdin */
 .screenshot-images {
   margin: 0;
   clear: both;
   position: relative;
   white-space: nowrap;
   transition: 1s ease-in-out; }
-  /* line 183, stdin */
+  /* line 186, stdin */
   .screenshot-images li {
     display: inline-block;
     margin-right: 32px; }
-    /* line 186, stdin */
+    /* line 189, stdin */
     .screenshot-images li:last-child {
       margin-right: 0; }
-    /* line 189, stdin */
+    /* line 192, stdin */
     .screenshot-images li img {
       width: 240px; }
 
-/* line 198, stdin */
+/* line 201, stdin */
 .badge-tail {
   width: 141px;
   height: 35px;
@@ -202,7 +207,7 @@ button.close {
   left: 65px;
   bottom: 50px; }
 
-/* line 208, stdin */
+/* line 211, stdin */
 .update-badge {
   position: absolute;
   bottom: 15px;
@@ -213,7 +218,7 @@ button.close {
   border: 1px solid #D7D7D7;
   overflow: hidden;
   background: #fff; }
-  /* line 218, stdin */
+  /* line 221, stdin */
   .update-badge h5 {
     position: relative;
     top: 100%;
