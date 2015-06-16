@@ -1,3 +1,7 @@
+html, body {
+  box-sizing: border-box;
+}
+
 .cf:before,
 .cf:after {
   content: " "; /* 1 */
@@ -112,9 +116,11 @@ button.close {
   float: right;
   text-align: center;
   height: 124px;
-  width: 124px;
+  width: 74px;
   background: #2B2B2B;
+  padding: 0 24px;
   h3 {
+    font-size: 16px;
     margin: 0;
     position: relative;
     top: 50%;
